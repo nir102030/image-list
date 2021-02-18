@@ -1,0 +1,63 @@
+.picComp {
+	margin: 30px;
+}
+
+.picComp :hover {
+	cursor: pointer;
+	border-style: solid;
+	border-color: aliceblue;
+}
+
+.picCompClicked {
+	margin: 30px;
+}
+
+.picList {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	position: relative;
+	padding: 0;
+	margin: 0;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+}
+
+.picListOverlay {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	position: fixed;
+	padding: 0;
+	margin: 0;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnailList {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	position: fixed;
+	padding: 0;
+	margin: 0;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnail {
+	margin: 5px;
+	display: inline-block;
+}
+
+.thumbnail :hover {
+	cursor: pointer;
+	border-style: solid;
+	border-color: aliceblue;
+}
