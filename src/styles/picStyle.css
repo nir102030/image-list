@@ -23,11 +23,12 @@
 
 	width: 100%;
 	height: 100%;
+	z-index: 0;
 }
 
 .picListOverlay {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
-	position: fixed;
+	position: relative;
 	padding: 0;
 	margin: 0;
 
@@ -36,11 +37,12 @@
 
 	width: 100%;
 	height: 100%;
+	z-index: 0;
 }
 
 .thumbnailList {
 	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
-	position: fixed;
+	position: realtive;
 	padding: 0;
 	margin: 0;
 
@@ -49,6 +51,20 @@
 
 	width: 100%;
 	height: 100%;
+	z-index: 0;
+}
+
+.thumbnailListOverlay {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	padding: 0;
+	margin: 0;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	z-index: 0;
 }
 
 .thumbnail {
