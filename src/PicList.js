@@ -59,7 +59,6 @@ const PicList = () => {
 
 	useEffect(() => {
 		initiatePics();
-		document.title = 'CoCoHub Demo';
 	}, []);
 
 	const renderPics = () => {
