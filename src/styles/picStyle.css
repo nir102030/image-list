@@ -13,7 +13,7 @@
 }
 
 .picList {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/picsum.png');
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -27,7 +27,7 @@
 }
 
 .picListOverlay {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/picsum.png');
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -41,7 +41,7 @@
 }
 
 .thumbnailList {
-	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/picsum.png');
 	position: realtive;
 	padding: 0;
 	margin: 0;
@@ -55,7 +55,7 @@
 }
 
 .thumbnailListOverlay {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/cocohub.png');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/picsum.png');
 	padding: 0;
 	margin: 0;
 
